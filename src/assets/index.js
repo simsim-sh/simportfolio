@@ -28,13 +28,13 @@ import blockchain from "./tech/blockchain.webp";
 import codealpha from "./company/codealpha.jpeg";
 import navix from "./company/navix.png";
 import mastertrust from "./company/mastertrust.jpg";
-import randamgif from "./tech/randamgif.png";
-import farehub from "./farehub.png";
+import multicompany from "./multicompany.png";
+import amor from "./amor.png";
 import Rozarpay from "./Rozarpay.png";
 
 export {
-  randamgif,
-  farehub,
+  multicompany,
+  amor,
   Rozarpay,
   logo,
   backend,

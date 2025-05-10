@@ -20,8 +20,8 @@ import {
   blockchain,
   polygon,
   Rozarpay,
-  randamgif,
-  farehub,
+multicompany,
+  amor,
   x,
   gmail,
   githublogo,
@@ -131,18 +131,18 @@ const experiences = [
       "Actively participated in code reviews, offering constructive feedback to foster continuous improvement within the development team.",
     ],
   },
-{
-  title: "Sales Executive",
-  company_name: "Master Trust Ltd",
-  icon: mastertrust,
-  iconBg: "#383E56",
-  date: "Jan 2024 - Mar 2024",
-  points: [
-    "Worked as a Sales Executive in a trading company, specializing in financial products and services.",
-    "Focused on promoting and selling mutual funds, equity trading, and other investment options to clients.",
-    "Built strong client relationships, provided investment advice, and assisted customers in achieving their financial goals through tailored solutions.",
-  ],
-},
+// {
+//   title: "Sales Executive",
+//   company_name: "Master Trust Ltd",
+//   icon: mastertrust,
+//   iconBg: "#383E56",
+//   date: "Jan 2024 - Mar 2024",
+//   points: [
+//     "Worked as a Sales Executive in a trading company, specializing in financial products and services.",
+//     "Focused on promoting and selling mutual funds, equity trading, and other investment options to clients.",
+//     "Built strong client relationships, provided investment advice, and assisted customers in achieving their financial goals through tailored solutions.",
+//   ],
+// },
   {
     title: "Full Stack Developer",
     company_name: "Navix consultancy Services",
@@ -185,9 +185,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Randam GIF Generator App",
+    name: "Muticompany live data show",
     description:
-      "The Random GIF Generator is an interactive web application built using React for the frontend, Node.js for the backend, and MongoDB for database storage. This application allows users to generate random GIFs based on different categories or search terms.",
+    "Multicompany Live Data Show is a real-time web application designed to display live data from multiple companies in a unified dashboard. Built with React for a dynamic frontend, Node.js for robust backend services, and MongoDB for efficient data handling, this platform provides seamless access to real-time updates, analytics, and performance metrics across various companies.",
     tags: [
       {
         name: "react",
@@ -206,31 +206,31 @@ const projects = [
         color: "red-text-gradient",
       },
     ],
-    image: randamgif,
-    live_link: "http://randamgifsgenerator.netlify.app",
-    source_code_link:
-      "https://github.com/abhishekmahaja/Random-GIF-Generator-Project",
+    image: multicompany,
+    live_link: "https://multicompanylivedatashow.netlify.app/",
+    // source_code_link:
+    //   "https://github.com/abhishekmahaja/Random-GIF-Generator-Project",
   },
   {
-    name: "My FaresHub Application",
+    name: "Armor-guardian",
     description:
-      "'FaresHub' is an innovative web application designed to streamline the process of managing fares and pricing information. Developed using HTML, CSS, and JavaScript, FaresHub offers a user-friendly interface combined with powerful functionality for efficient fare management. FaresHub is built with a responsive design, ensuring seamless functionality across devices and screen sizes.",
+    "'Armor-Guardian' is a robust web application designed to safeguard and manage fare and pricing information with precision and reliability. Developed using HTML, CSS, and JavaScript, it combines a secure, user-friendly interface with responsive design for seamless use across all devices. Armor-Guardian acts as a digital shield, ensuring your fare data is always organized, accessible, and protected.",
     tags: [
       {
-        name: "HTML5",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS3",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "JAVA",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: farehub,
-    live_link: "http://myfareshub.netlify.app",
+    image: amor,
+    live_link: "https://armor-guardian.vercel.app/",
     source_code_link: "https://github.com/abhishekmahaja/My-Fares-Hub",
   },
   {
