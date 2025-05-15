@@ -144,7 +144,7 @@ const experiences = [
 //   ],
 // },
   {
-    title: "Full Stack Developer",
+    title: "MERN Stack Developer",
     company_name: "Navix consultancy Services",
     icon: navix,
     iconBg: "#383E56",
